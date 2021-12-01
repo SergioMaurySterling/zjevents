@@ -1,0 +1,24 @@
+{
+  "name": "zjevents",
+  "version": "1.0.0",
+  "description": "ZJ EVENTS WEBPAGE",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioMaurySterling/zjevents.git"
+  },
+  "keywords": [
+    "CBD",
+    "ZJ",
+    "EVENTS"
+  ],
+  "author": "Sergio Maury Sterling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergioMaurySterling/zjevents/issues"
+  },
+  "homepage": "https://github.com/SergioMaurySterling/zjevents#readme"
+}
