@@ -59,6 +59,7 @@ body{
 .Main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-top: 6rem;
 }
 
@@ -136,6 +137,47 @@ body{
   line-height: 37px;
 }
 
+.Main__steps {
+  margin-top: 140px;
+}
+
+.Main__steps > div {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(199, 189, 111, 0.4);
+  width: 100%;
+  height: 356px;
+  padding: 0 10rem;
+}
+
+.Main__steps-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  width: 400px;
+}
+
+.Main__steps-item  p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 28px;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.Main__steps-item  span {
+  font-weight: 700;
+}
+
+.Main__steps-item h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 79px;
+  line-height: 102px;
+}
 
 
 
@@ -143,7 +185,8 @@ body{
 
 
 
-@media screen and (max-width: 1400px) {
+
+@media screen and (max-width: 1450px) {
   .Main__banner-img img {
     width: 657.07px;
     height: 375.66px;
@@ -159,5 +202,15 @@ body{
     font-style: normal;
     line-height: 40.95px;
     margin-bottom: 60px;
+  }
+
+  .Main__steps-item  p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 5px;
+  }
+
+  .Main__steps-item {
+    width: 250px;
   }
 }
