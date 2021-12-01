@@ -1,0 +1,136 @@
+html{
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+*, *:after, *:before{
+  box-sizing: inherit;
+}
+ul ,li ,h1 ,h2 ,h3 ,p ,button{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+button{
+  background: transparent;
+  border:0;
+  outline: 0;
+}
+body{
+  background-color: #fefefe;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  overscroll-behavior: none;
+  background-image: url('../assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Header {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.Header__nav-list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Header__nav-item > a{
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.Header__nav-item {
+  margin: 0 1rem;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.Main__banner {
+  margin: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Main__banner-img img {
+  width: 757.07px;
+  height: 445.66px;
+}
+
+.Main__banner-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Main__banner-text > h1{
+  font-size: 40px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 60.95px;
+  margin-bottom: 90px;
+}
+
+.Main__banner-text > div > h1{
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 60.95px;
+}
+
+.Main__banner-text span{
+  font-weight: bold;
+}
+
+.Main__banner-text > div > h1 {
+  text-align: center;
+}
+
+.Main__banner-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main__banner-countdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 56px;
+  border: solid 3px white;
+  border-radius: 5px;
+  margin: 0 2rem;
+}
+
+.Main__banner-countdown-item h1 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 37px;
+}
+
+.Main__banner-countdown-item h2 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 37px;
+}
+
