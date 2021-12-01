@@ -4,9 +4,7 @@
   "description": "ZJ EVENTS WEBPAGE",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/SergioMaurySterling/zjevents/issues"
   },
-  "homepage": "https://github.com/SergioMaurySterling/zjevents",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "homepage": "https://github.com/SergioMaurySterling/zjevents"
 }
