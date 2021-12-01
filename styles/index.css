@@ -179,6 +179,83 @@ body{
   line-height: 102px;
 }
 
+.Main__terms {
+  position: relative;
+  top: -150px;
+}
+
+.Main__terms > div {
+  color: #333333;
+  background-color: #fefefe;
+  margin: 0 10rem;
+  border-radius: 10px;
+  padding: 6rem 2rem;
+}
+
+.Main__terms > div > h1{
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 50px;
+}
+
+.Main__terms-terms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Main__terms-terms h1 {
+  color: #C7BD6F;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.Main__terms-terms p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.Main__terms-terms span {
+  font-weight: 700;
+}
+
+.Main__terms-terms-item {
+  display: flex;
+  width: 40%;
+  margin: 10px 0px;
+}
+
+.Main__terms-terms-item:nth-child(4) {
+  height: 100px;
+}
+
+.Main__terms-terms-item:nth-child(6) {
+  position: relative;
+  top: -100px;
+}
+
+.Main__terms-terms img {
+  width: 46.4px;
+  height: 46.4px;
+  margin-right: 20px;
+}
+
+.Main__terms-terms-item ul {
+  margin-left: 15px;
+}
+
+.Main__terms-terms-item li {
+  list-style: square;
+}
+
+
 
 
 
@@ -212,5 +289,14 @@ body{
 
   .Main__steps-item {
     width: 250px;
+  }
+
+  .Main__terms-terms p{
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .Main__terms-terms-item:nth-child(6) {
+    top: -115px;
   }
 }
