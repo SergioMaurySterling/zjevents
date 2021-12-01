@@ -71,13 +71,14 @@ body{
 
 .Main__banner-img img {
   width: 757.07px;
-  height: 445.66px;
+  height: 475.66px;
 }
 
 .Main__banner-text {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 1rem;
 }
 
 .Main__banner-text > h1{
@@ -88,25 +89,27 @@ body{
   margin-bottom: 90px;
 }
 
+.Main__banner-text > div {
+  width: 100%;
+}
+
 .Main__banner-text > div > h1{
   font-size: 18px;
   font-weight: 200;
   font-style: normal;
   line-height: 60.95px;
+  text-align: center;
 }
 
 .Main__banner-text span{
   font-weight: bold;
 }
 
-.Main__banner-text > div > h1 {
-  text-align: center;
-}
-
 .Main__banner-countdown {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .Main__banner-countdown-item {
@@ -117,7 +120,6 @@ body{
   height: 56px;
   border: solid 3px white;
   border-radius: 5px;
-  margin: 0 2rem;
 }
 
 .Main__banner-countdown-item h1 {
@@ -134,3 +136,28 @@ body{
   line-height: 37px;
 }
 
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  .Main__banner-img img {
+    width: 657.07px;
+    height: 375.66px;
+  }
+
+  .Main__banner-countdown-item {
+    margin-right: 1rem;
+  }
+
+  .Main__banner-text > h1{
+    font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 40.95px;
+    margin-bottom: 60px;
+  }
+}
