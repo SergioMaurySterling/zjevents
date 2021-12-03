@@ -49,10 +49,6 @@ body{
   font-weight: 200;
 }
 
-.icon img {
-  display: none;
-}
-
 .Header__nav-item {
   margin: 0 1rem;
 }
@@ -424,6 +420,13 @@ footer {
   line-height: 22px;
   text-decoration: none;
   color: white;
+}
+
+
+@media screen and (min-width: 780px) {
+  .icon img {
+    display: none;
+  }
 }
 
 
