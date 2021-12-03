@@ -509,6 +509,11 @@ footer {
     font-size: 20px;
     line-height: 25px;
   }
+
+  .Footer__container a {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
 
 @media only screen and (max-width: 780px) {
@@ -544,7 +549,26 @@ footer {
   }
 
   .Header__nav {
-    display: none;
+    overflow: hidden;
+  }
+
+  .Header__nav-list{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    border: 1px solid #333333;
+    height: auto;
+  }
+
+  .Header__nav-item{
+    display: block;
+    color: white;
+  }
+
+  .icon img {
+    width: 40px;
+    height: 40px;
   }
 
   .Header__logo > a > img {

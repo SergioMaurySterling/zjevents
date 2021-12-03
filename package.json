@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/SergioMaurySterling/zjevents/issues"
   },
-  "homepage": "https://github.com/SergioMaurySterling/zjevents"
+  "homepage": "https://github.com/SergioMaurySterling/zjevents",
+  "dependencies": {
+    "timers": "^0.1.1"
+  }
 }
