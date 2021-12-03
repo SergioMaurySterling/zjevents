@@ -237,12 +237,12 @@
           </select>
           <input type='text' placeholder="Write the product name here">
         </div>
-<!--         <div class="Main__selectors-item">
+        <div class="Main__selectors-item">
           <div><h1>CONTACT INFO</h1></div>
           <input class='Main__selectors-contact' type='text' placeholder="Full name">
           <input class='Main__selectors-contact' type='phone' placeholder="Phone">
           <input class='Main__selectors-contact' type='email' placeholder="Email">
-        </div> -->
+        </div>
         <button type='button' class="Main__selectors-button">
           <p>SUBMIT</p>
         </button>
@@ -320,12 +320,12 @@
 
     var countDownDate = new Date("Dec 31, 2021 21:59:00").getTime();
       var x = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        const now = new Date().getTime();
+        const distance = countDownDate - now;
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
         document.getElementById("days").innerHTML = days;
         document.getElementById("hours").innerHTML = hours;
         document.getElementById("minutes").innerHTML = minutes;

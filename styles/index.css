@@ -371,8 +371,9 @@ body{
   outline: none;
 }
 
-Main__selectors-contact{
+.Main__selectors-contact{
   width: 330px !important;
+  margin-right: 20px;
 }
 
 .Main__selectors-button {
@@ -435,6 +436,11 @@ footer {
   .Main__banner-img img {
     width: 657.07px;
     height: 375.66px;
+  }
+
+  .Main__selectors-contact{
+    width: 197px !important;
+    margin-right: 20px;
   }
 
   .Main__banner-countdown-item {
@@ -669,6 +675,15 @@ footer {
 
   .Main__selectors-item  select {
     width: 310px;
+    height: 58px;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0px 10px;
+    margin: 20px 0px;
+  }
+
+  .Main__selectors-contact{
+    width: 310px !important;
     height: 58px;
     font-size: 14px;
     line-height: 19px;
