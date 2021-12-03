@@ -49,6 +49,10 @@ body{
   font-weight: 200;
 }
 
+.icon img {
+  display: none;
+}
+
 .Header__nav-item {
   margin: 0 1rem;
 }
