@@ -433,7 +433,7 @@ footer {
   }
 
   .Main__banner-text > h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
     font-style: normal;
     line-height: 40.95px;
@@ -490,5 +490,22 @@ footer {
     width: 200px;
     height: 58px;
     left: -130px;
+  }
+
+  .Header__nav-item > a{
+    font-size: 13px;
+  }
+
+  .Footer__container a {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .Main__selectors-button {
+    background-color: #38D430;
+    width: 210px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 25px;
   }
 }
