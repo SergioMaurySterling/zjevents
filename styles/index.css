@@ -553,7 +553,7 @@ footer {
   }
 
   .Header__nav-list{
-    display: block;
+    display: none;
     position: absolute;
     top: 100px;
     left: 50%;
