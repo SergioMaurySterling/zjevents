@@ -243,9 +243,15 @@
           <input class='Main__selectors-contact' type='phone' placeholder="Phone">
           <input class='Main__selectors-contact' type='email' placeholder="Email">
         </div>
-        <button type='button' class="Main__selectors-button">
+        <button type='button' class="Main__selectors-button" onclick="modalFunction()">
           <p>SUBMIT</p>
         </button>
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <img src="./assets/logos/whitelogo.png" alt="logo">
+            <span>Thank you for your submission!</span>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -311,6 +317,15 @@
   <script>
     function burgerMenu() {
       var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+    function modalFunction() {
+      var x = document.getElementById("modal");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
